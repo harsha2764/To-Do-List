@@ -34,12 +34,6 @@ This project demonstrates core front-end development concepts including DOM mani
 
 ---
 
-## 📸 Preview
-
-(Add screenshot here)
-
----
-
 ## 📈 Future Improvements
 
 - Dark/Light mode  
