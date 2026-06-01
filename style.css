@@ -1,0 +1,72 @@
+/* GENERAL */
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* APP BOX */
+.app {
+  width: 400px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* INPUT */
+.input-box {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* FILTERS */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.filters button {
+  flex: 1;
+  margin: 2px;
+}
+
+/* TASK LIST */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 8px;
+  background: #334155;
+  border-radius: 8px;
+}
+
+/* COMPLETED TASK */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
